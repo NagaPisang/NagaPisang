@@ -1,0 +1,466 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body
+{
+    background-color: gainsboro;
+    background-image: url(bg.jpg);   /*supaya background full pict*/
+            background-size:cover;
+            background-attachment: fixed;
+}
+ 
+.badan-utama
+{
+    max-width: cover;    /*lebar bingkai kontennya*/
+    margin: 0px auto;
+    background-color: white;    /*warna background kontennya*/
+    padding: 15px;
+    overflow: auto;
+}
+ 
+header
+{
+    background-color: yellow;  /*warna judul header*/ 
+    color: white;
+    padding: 20px;
+}
+
+
+kata
+
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+
+header i {
+    float: right;
+    color: black;
+}
+
+header a {
+    float: right;
+    color: black;
+}
+
+.align h2 {
+    color:black;
+    padding: 12;
+    position: center;
+}
+
+h3 {
+    color: black;
+}
+ 
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: yellow;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+.navigasi li 
+{
+    float: right;
+}
+ 
+.navigasi li a 
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover 
+{
+    background-color:red;
+    transition-duration: 1s;
+}
+ 
+.banner
+{
+    margin-bottom: 15px;
+}
+ 
+.banner img
+{
+    display: block;
+    width: 100%;
+    height: 330px;
+}
+ 
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h3
+{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p
+{
+    margin-bottom: 10px;
+}
+ 
+.menu-kiri
+{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah
+{
+    width: 530px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah h3
+{
+    background: none;
+    color: crimson;
+    margin-bottom: 0;
+}
+ 
+.tanggal-posting
+{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 2s;
+}
+ 
+.tombol-pesan
+{
+    background-color: green;
+}
+ 
+.tombol-lengkap
+{
+    background-color: palevioletred;
+}
+ 
+.menu-kanan
+{
+    width: 250px;
+    float: left;
+}
+ 
+.menu-kanan, .menu-kiri, .menu-tengah
+{
+    margin-bottom: 15px;
+}
+ 
+footer
+{
+    clear: both;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+.menu-artikel ul
+{
+    list-style-type: none;
+}
+ 
+.menu-artikel ul li a
+{
+    text-decoration: blink;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.menu-artikel ul li a:hover
+{
+    color: crimson;
+    border-bottom: 5px double chocolate;
+    transition-duration: 1s;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+ 
+
+ .btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.fourth {
+  border-color: #f1c40f;
+  color: #fff;
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+
+ 
+/*untuk tablet*/
+@media screen and (max-width:1080px)
+{
+    .badan-utama
+    {
+        width: 100%;
+    }
+ 
+    .menu-kiri
+    {
+        width: 25%;
+    }
+ 
+    .menu-tengah
+    {
+        width: 68%;
+        float: right;
+    }
+ 
+    .menu-kanan
+    {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+}
+ 
+/*untuk android*/
+@media screen and (max-width:780px)
+{
+    header h2, header p
+    {
+        text-align: center;
+    }
+ 
+    .menu-kiri, .menu-kanan, .menu-tengah
+    {
+        float: none;
+        width: 100%;
+    }
+ 
+    .navigasi li
+    {
+        float: none;
+    }
+}
+
+
+* {
+ box-sizing: border-box;
+}
+
+.sosial-media-fixed {
+ position: fixed;
+ top: 50%;
+ left: 0;
+ transform: translate(-0%, -50%);
+}
+
+.sosial-media-fixed ul {
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ background: #ffffff;
+ padding: 5px;
+}
+
+.sosial-media-fixed ul li {
+ width: 40px;
+ height: 40px;
+ line-height: 40px; /* line height samakan dengan height dan width nya */
+ margin-bottom: 5px;
+}
+
+/* menghilangkan margin bottom pada tag li terakhir */
+.sosial-media-fixed ul li:last-child {
+ margin-bottom: 0;
+}
+
+.sosial-media-fixed ul li a {
+ display: block;
+ width: 100%;
+ text-align: center;
+ height: 100%;
+ color: #ffffff;
+ font-size: 14px;
+}
+
+/* css background di bawah ini akan memberikan warna sesuai dengan warna masing masing sosial media */
+.sosial-media-fixed ul li a.fb {
+ background: #1877f2;
+}
+
+.sosial-media-fixed ul li a.ig {
+ background: #c32aa3;
+}
+
+.sosial-media-fixed ul li a.wa {
+ background: #25d366;
+}
+
+.sosial-media-fixed ul li a.tl {
+ background: #0088cc;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(images/login.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.container h1{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+.container label{
+    text-align: left;
+    color: #90caf9;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#2979ff;
+    font-size: 18px;
+    color: #F8F8FF;
+}
+
+.header__top__right__auth {
+    display: inline-block;
+}
+
+.header__top__right__auth a {
+    display: block;
+    font-size: 14px;
+    color: #1c1c1c;
+}
+
+.header__top__right__auth a i {
+    margin-right: 6px;
+}
